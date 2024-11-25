@@ -1,0 +1,22 @@
+.Nav-bar {
+  padding: 16px 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: inline-block;
+  max-width: 71px;
+}
+
+.logo img {
+  width: auto;
+  max-width: 100%;
+}

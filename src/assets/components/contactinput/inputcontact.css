@@ -1,0 +1,27 @@
+.input-format {
+  position: relative;
+  margin: 32px auto;
+}
+.input-field {
+  font-size: 18px;
+  padding: 10px 8px;
+  width: 440px;
+  text-transform: capitalize;
+  margin-left: 10px;
+  border: 2px solid rgb(51, 49, 49, 0.5);
+}
+.input-text {
+  font-family: "Poppins", serif;
+  position: absolute;
+  z-index: 99;
+  font-size: 14px;
+  top: -10px;
+  left: 20px;
+  background-color: white;
+  font-weight: 600;
+  padding: 0 3px;
+}
+
+.input-field[type="text-area"] {
+  height: 120px;
+}
